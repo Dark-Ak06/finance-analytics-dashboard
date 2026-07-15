@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finance Analytics — Interactive Ledger</title>
+<meta name="description" content="Interactive personal finance analytics dashboard — income, expenses, categories, and trends.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<header class="ledger-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark">FA</span>
+      <div class="brand-text">
+        <span class="brand-title">Finance Analytics</span>
+        <span class="brand-sub">Personal ledger &amp; portfolio dashboard</span>
+      </div>
+    </div>
+    <nav class="ledger-nav" aria-label="Разделы">
+      <a href="#overview" class="nav-link active" data-target="overview">Обзор</a>
+      <a href="#trends" class="nav-link" data-target="trends">Динамика</a>
+      <a href="#categories" class="nav-link" data-target="categories">Категории</a>
+      <a href="#payments" class="nav-link" data-target="payments">Оплата</a>
+      <a href="#ledger" class="nav-link" data-target="ledger">Транзакции</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO / SIGNATURE STAMP -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Год&nbsp;2026 · Отчёт по личным финансам</p>
+        <h1>Каждая операция —<br>строка в книге учёта.</h1>
+        <p class="hero-lede">
+          650+ транзакций, очищенных и проверенных автоматически, разложены
+          по категориям, месяцам и способам оплаты. Наведите курсор на графики —
+          они живые.
+        </p>
+        <p class="hero-meta" id="generated-meta">Данные обновлены: —</p>
+      </div>
+      <div class="hero-stamp-wrap">
+        <div class="stamp" id="net-profit-stamp">
+          <div class="stamp-ring">
+            <svg viewBox="0 0 200 200" class="stamp-text-ring" aria-hidden="true">
+              <defs>
+                <path id="stampCircle" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0" />
+              </defs>
+              <text>
+                <textPath href="#stampCircle" startOffset="0%">
+                  ЧИСТАЯ ПРИБЫЛЬ · NET PROFIT · ЧИСТАЯ ПРИБЫЛЬ · NET PROFIT ·
+                </textPath>
+              </text>
+            </svg>
+            <div class="stamp-center">
+              <span class="stamp-currency">₸</span>
+              <span class="stamp-value" id="stamp-net-profit">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPI LEDGER STRIP -->
+  <section class="kpi-strip" id="overview">
+    <div class="section-heading">
+      <span class="section-index">01</span>
+      <h2>Итоговые показатели</h2>
+    </div>
+    <div class="kpi-grid" id="kpi-grid"><!-- filled by JS --></div>
+  </section>
+
+  <!-- MONTHLY TRENDS -->
+  <section class="chart-section" id="trends">
+    <div class="section-heading">
+      <span class="section-index">02</span>
+      <h2>Динамика по месяцам</h2>
+      <p class="section-note">Доход и расход помесячно — линии учёта пересекаются там, где месяц ушёл в минус.</p>
+    </div>
+    <div class="chart-card wide">
+      <div id="chart-monthly-trend" class="plot"></div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-card">
+        <h3>Темп роста расходов, %</h3>
+        <div id="chart-expense-growth" class="plot"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Темп роста доходов, %</h3>
+        <div id="chart-income-growth" class="plot"></div>
+      </div>
+    </div>
+    <div class="chart-card wide">
+      <h3>Тепловая карта: категория × месяц (расходы)</h3>
+      <div id="chart-heatmap" class="plot tall"></div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="chart-section" id="categories">
+    <div class="section-heading">
+      <span class="section-index">03</span>
+      <h2>Категории</h2>
+      <p class="section-note">Переключите вкладку, чтобы увидеть расходы или доходы.</p>
+    </div>
+
+    <div class="tab-switch" role="tablist" aria-label="Тип категорий">
+      <button class="tab-btn active" data-cat-type="expense" role="tab" aria-selected="true">Расходы</button>
+      <button class="tab-btn" data-cat-type="income" role="tab" aria-selected="false">Доходы</button>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-card">
+        <h3 id="pie-title">Доля категорий расходов</h3>
+        <div id="chart-category-pie" class="plot"></div>
+      </div>
+      <div class="chart-card">
+        <h3 id="bar-title">Топ-10 категорий расходов</h3>
+        <div id="chart-category-bar" class="plot"></div>
+      </div>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-card">
+        <h3>Распределение сумм операций</h3>
+        <div id="chart-histogram" class="plot"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Расходы — boxplot</h3>
+        <div id="chart-boxplot" class="plot"></div>
+      </div>
+    </div>
+
+    <div class="chart-card wide">
+      <h3>Доход vs расход по дням</h3>
+      <div id="chart-scatter" class="plot"></div>
+    </div>
+  </section>
+
+  <!-- PAYMENTS -->
+  <section class="chart-section" id="payments">
+    <div class="section-heading">
+      <span class="section-index">04</span>
+      <h2>Способы оплаты</h2>
+      <p class="section-note">Чаще всего использовался: <strong id="most-used-method">—</strong></p>
+    </div>
+    <div class="chart-row">
+      <div class="chart-card">
+        <h3>Сумма по способам оплаты</h3>
+        <div id="chart-payment-totals" class="plot"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Количество операций по способам оплаты</h3>
+        <div id="chart-payment-counts" class="plot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSACTIONS TABLE -->
+  <section class="ledger-table-section" id="ledger">
+    <div class="section-heading">
+      <span class="section-index">05</span>
+      <h2>Книга транзакций</h2>
+      <p class="section-note">Ищите, фильтруйте и сортируйте — как в настоящей бухгалтерской книге, только быстрее.</p>
+    </div>
+
+    <div class="table-controls">
+      <input type="search" id="search-input" placeholder="Поиск по описанию или категории…" aria-label="Поиск">
+      <select id="filter-type" aria-label="Фильтр по типу">
+        <option value="all">Все операции</option>
+        <option value="Income">Только доходы</option>
+        <option value="Expense">Только расходы</option>
+      </select>
+      <select id="filter-month" aria-label="Фильтр по месяцу">
+        <option value="all">Все месяцы</option>
+      </select>
+      <span class="row-count" id="row-count">0 записей</span>
+    </div>
+
+    <div class="table-wrap">
+      <table id="ledger-table">
+        <thead>
+          <tr>
+            <th data-sort="date">Дата</th>
+            <th data-sort="type">Тип</th>
+            <th data-sort="category">Категория</th>
+            <th data-sort="description">Описание</th>
+            <th data-sort="amount" class="align-right">Сумма</th>
+            <th data-sort="payment_method">Оплата</th>
+          </tr>
+        </thead>
+        <tbody id="ledger-tbody"><!-- filled by JS --></tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination"><!-- filled by JS --></div>
+  </section>
+
+</main>
+
+<footer class="ledger-footer">
+  <div class="footer-inner">
+    <p>Finance Analytics Dashboard — построено на Python (pandas · openpyxl · matplotlib) и статической странице (Plotly.js). Полный проект и исходный код — в этом репозитории.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

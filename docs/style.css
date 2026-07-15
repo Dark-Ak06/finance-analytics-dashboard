@@ -1,0 +1,529 @@
+/* ==========================================================================
+   Finance Analytics — "Ledger" design system
+   Palette: ink navy (headers/income), brick red (expense, per ledger
+   convention of red ink for debits), brass/gold (accent, interactive),
+   paper cream (background). Type: serif display (Source Serif 4) for
+   headlines, IBM Plex Sans for UI text, IBM Plex Mono for all figures —
+   so amounts always align like a real ledger column.
+   ========================================================================== */
+
+:root {
+  --ink: #16273D;
+  --ink-soft: #2C4059;
+  --ink-faint: #5B6E83;
+  --paper: #ECE7D8;
+  --paper-alt: #E2DCC8;
+  --paper-deep: #DDD6C0;
+  --brick: #9C3B2E;
+  --brick-soft: #B5584A;
+  --brass: #A6802E;
+  --brass-bright: #C79C3E;
+  --line: #C9C0A8;
+  --line-strong: #ADA383;
+  --white: #FAF8F1;
+
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  --radius: 3px;
+  --shadow-card: 0 1px 0 var(--line), 0 8px 24px -16px rgba(22, 39, 61, 0.35);
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+
+/* subtle paper grain via layered radial noise, purely decorative */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image:
+    radial-gradient(circle at 20% 30%, #000 0.5px, transparent 0.5px),
+    radial-gradient(circle at 70% 65%, #000 0.5px, transparent 0.5px);
+  background-size: 3px 3px, 4px 4px;
+}
+
+a { color: inherit; }
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--ink);
+  margin: 0;
+}
+
+/* ---------------------------------- Header --------------------------- */
+
+.ledger-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--ink);
+  border-bottom: 2px solid var(--brass);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  border: 1.5px solid var(--brass);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--brass-bright);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.brand-text { display: flex; flex-direction: column; line-height: 1.25; }
+.brand-title { color: var(--white); font-family: var(--font-display); font-size: 17px; font-weight: 600; }
+.brand-sub { color: #9FB0C4; font-size: 11.5px; letter-spacing: 0.03em; text-transform: uppercase; }
+
+.ledger-nav { display: flex; gap: 4px; flex-wrap: wrap; }
+
+.nav-link {
+  text-decoration: none;
+  color: #C4CEDA;
+  font-size: 13.5px;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  transition: color 0.15s ease, background 0.15s ease;
+  letter-spacing: 0.01em;
+}
+
+.nav-link:hover { color: var(--white); background: rgba(255,255,255,0.06); }
+.nav-link.active { color: var(--brass-bright); font-weight: 500; }
+
+/* ---------------------------------- Hero ------------------------------ */
+
+.hero {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid var(--line-strong);
+  background:
+    linear-gradient(180deg, var(--paper) 0%, var(--paper-alt) 100%);
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 28px 64px;
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brick);
+  margin: 0 0 18px;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.1rem, 4vw, 3.1rem);
+  line-height: 1.12;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.hero-lede {
+  font-size: 16.5px;
+  color: var(--ink-soft);
+  max-width: 46ch;
+  margin: 0 0 20px;
+}
+
+.hero-meta {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  border-top: 1px dashed var(--line-strong);
+  padding-top: 14px;
+  display: inline-block;
+}
+
+/* Signature element: circular ink stamp with rotating text ring */
+
+.hero-stamp-wrap { display: flex; justify-content: center; }
+
+.stamp {
+  width: 240px;
+  height: 240px;
+  position: relative;
+  animation: stamp-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes stamp-in {
+  from { opacity: 0; transform: scale(0.85) rotate(-8deg); }
+  to { opacity: 1; transform: scale(1) rotate(-6deg); }
+}
+
+.stamp-ring {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2.5px solid var(--brick);
+  outline: 1px solid var(--brick);
+  outline-offset: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform: rotate(-6deg);
+  color: var(--brick);
+  background: rgba(156, 59, 46, 0.03);
+}
+
+.stamp-text-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stamp-text-ring text {
+  font-family: var(--font-mono);
+  font-size: 8.6px;
+  letter-spacing: 0.15em;
+  fill: var(--brick);
+  text-transform: uppercase;
+}
+
+.stamp-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transform: rotate(6deg);
+}
+
+.stamp-currency { font-family: var(--font-mono); font-size: 15px; opacity: 0.75; }
+
+.stamp-value {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  letter-spacing: -0.02em;
+}
+
+/* ---------------------------------- Sections --------------------------- */
+
+main { position: relative; z-index: 1; }
+
+section { max-width: 1200px; margin: 0 auto; padding: 64px 28px; }
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.section-index {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--brass);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.section-heading h2 { font-size: 1.7rem; font-weight: 600; }
+
+.section-note {
+  font-size: 14px;
+  color: var(--ink-faint);
+  margin: 0;
+  flex-basis: 100%;
+}
+
+/* ---------------------------------- KPI ledger strip -------------------- */
+
+.kpi-strip { padding-top: 48px; }
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--line-strong);
+  border-left: 1px solid var(--line-strong);
+}
+
+.kpi-cell {
+  border-right: 1px solid var(--line-strong);
+  border-bottom: 1px solid var(--line-strong);
+  padding: 22px 20px;
+  background: var(--white);
+  transition: background 0.15s ease;
+}
+
+.kpi-cell:hover { background: var(--paper-alt); }
+
+.kpi-label {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.kpi-value.positive { color: #3E5F42; }
+.kpi-value.negative { color: var(--brick); }
+
+@media (max-width: 900px) {
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .kpi-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------------------------------- Charts ------------------------------ */
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 860px) {
+  .chart-row { grid-template-columns: 1fr; }
+}
+
+.chart-card {
+  background: var(--white);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 22px 22px 8px;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 24px;
+}
+
+.chart-card.wide { grid-column: 1 / -1; }
+
+.chart-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+}
+
+.plot { width: 100%; height: 340px; }
+.plot.tall { height: 460px; }
+
+/* ---------------------------------- Tabs -------------------------------- */
+
+.tab-switch {
+  display: inline-flex;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  padding: 3px;
+  margin-bottom: 28px;
+  background: var(--white);
+}
+
+.tab-btn {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
+  padding: 8px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tab-btn.active { background: var(--ink); color: var(--white); }
+.tab-btn:not(.active):hover { background: var(--paper-alt); }
+
+/* ---------------------------------- Ledger table ------------------------ */
+
+.ledger-table-section { padding-bottom: 96px; }
+
+.table-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.table-controls input[type="search"],
+.table-controls select {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  padding: 9px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--ink);
+}
+
+.table-controls input[type="search"] { flex: 1 1 240px; min-width: 200px; }
+
+.table-controls input:focus,
+.table-controls select:focus,
+.tab-btn:focus-visible,
+.nav-link:focus-visible,
+.page-btn:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+.row-count {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  margin-left: auto;
+}
+
+.table-wrap {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  background: var(--white);
+  box-shadow: var(--shadow-card);
+}
+
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 640px; }
+
+thead th {
+  text-align: left;
+  padding: 12px 16px;
+  background: var(--ink);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  position: sticky;
+  top: 0;
+}
+
+thead th:hover { background: var(--ink-soft); }
+
+thead th.align-right, td.align-right { text-align: right; }
+
+tbody td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--paper-deep);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(even) { background: var(--paper); }
+tbody tr:hover { background: var(--paper-alt); }
+
+.type-badge {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 9px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.type-badge.income { background: #E4EBE1; color: #3E5F42; }
+.type-badge.expense { background: #F3E1DD; color: var(--brick); }
+
+td.amount-income { color: #3E5F42; }
+td.amount-expense { color: var(--brick); }
+
+.pagination {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  border: 1px solid var(--line-strong);
+  background: var(--white);
+  color: var(--ink-soft);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.page-btn.active { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.page-btn:hover:not(.active) { background: var(--paper-alt); }
+.page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ---------------------------------- Footer ------------------------------ */
+
+.ledger-footer {
+  background: var(--ink);
+  color: #9FB0C4;
+  padding: 32px 28px;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 12.5px;
+  line-height: 1.6;
+}

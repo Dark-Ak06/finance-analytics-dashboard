@@ -1,0 +1,6381 @@
+{
+  "generated_at": "2026-07-14 06:43",
+  "overall": {
+    "total_income": 29532200.0,
+    "total_expense": 18031500.0,
+    "net_profit": 11500700.0,
+    "average_expense": 38364.89361702128,
+    "average_income": 163161.32596685083,
+    "max_expense": 244800.0,
+    "max_income": 499800.0,
+    "min_expense": 500.0,
+    "min_income": 1000.0,
+    "total_transactions": 651,
+    "total_expense_count": 470,
+    "total_income_count": 181
+  },
+  "categories": {
+    "top_expense": [
+      {
+        "category": "Rent",
+        "amount": 6043300.0
+      },
+      {
+        "category": "Travel",
+        "amount": 4665700.0
+      },
+      {
+        "category": "Education",
+        "amount": 2577300.0
+      },
+      {
+        "category": "Shopping",
+        "amount": 1058700.0
+      },
+      {
+        "category": "Health",
+        "amount": 1006500.0
+      },
+      {
+        "category": "Gift",
+        "amount": 629200.0
+      },
+      {
+        "category": "Utilities",
+        "amount": 582200.0
+      },
+      {
+        "category": "Entertainment",
+        "amount": 395400.0
+      },
+      {
+        "category": "Internet",
+        "amount": 326200.0
+      },
+      {
+        "category": "Food",
+        "amount": 191600.0
+      }
+    ],
+    "top_income": [
+      {
+        "category": "Salary",
+        "amount": 19693600.0
+      },
+      {
+        "category": "Freelance",
+        "amount": 3924100.0
+      },
+      {
+        "category": "Bonus",
+        "amount": 3706100.0
+      },
+      {
+        "category": "Investment",
+        "amount": 1347500.0
+      },
+      {
+        "category": "Gift",
+        "amount": 521300.0
+      },
+      {
+        "category": "Other",
+        "amount": 339600.0
+      }
+    ],
+    "expense_percent": [
+      {
+        "category": "Rent",
+        "percent": 33.51523722374733
+      },
+      {
+        "category": "Travel",
+        "percent": 25.875273826359425
+      },
+      {
+        "category": "Education",
+        "percent": 14.293320023292571
+      },
+      {
+        "category": "Shopping",
+        "percent": 5.871391731137177
+      },
+      {
+        "category": "Health",
+        "percent": 5.5818983445636805
+      },
+      {
+        "category": "Gift",
+        "percent": 3.4894490197709565
+      },
+      {
+        "category": "Utilities",
+        "percent": 3.2287940548484597
+      },
+      {
+        "category": "Entertainment",
+        "percent": 2.1928292155394726
+      },
+      {
+        "category": "Internet",
+        "percent": 1.8090563735684775
+      },
+      {
+        "category": "Food",
+        "percent": 1.0625849208329867
+      },
+      {
+        "category": "Mobile",
+        "percent": 0.9799517511022378
+      },
+      {
+        "category": "Subscriptions",
+        "percent": 0.870143914815739
+      },
+      {
+        "category": "Other",
+        "percent": 0.6771483237667415
+      },
+      {
+        "category": "Transport",
+        "percent": 0.5529212766547431
+      }
+    ],
+    "income_percent": [
+      {
+        "category": "Salary",
+        "percent": 66.68517753502957
+      },
+      {
+        "category": "Freelance",
+        "percent": 13.287530221250025
+      },
+      {
+        "category": "Bonus",
+        "percent": 12.54935290970534
+      },
+      {
+        "category": "Investment",
+        "percent": 4.562816180304888
+      },
+      {
+        "category": "Gift",
+        "percent": 1.7651918922396572
+      },
+      {
+        "category": "Other",
+        "percent": 1.1499312614705306
+      }
+    ],
+    "most_expensive_category": "Rent",
+    "most_profitable_category": "Salary"
+  },
+  "monthly": {
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "income": [
+      3318300.0,
+      1208800.0,
+      703200.0,
+      2826500.0,
+      2827500.0,
+      3249800.0,
+      2383400.0,
+      3251800.0,
+      2681000.0,
+      2075700.0,
+      2950300.0,
+      2055900.0
+    ],
+    "expense": [
+      1618000.0,
+      1099600.0,
+      1984300.0,
+      894200.0,
+      1934100.0,
+      1344000.0,
+      1320600.0,
+      1003900.0,
+      1016500.0,
+      2001600.0,
+      1810200.0,
+      2004500.0
+    ],
+    "profit": [
+      1700300.0,
+      109200.0,
+      -1281100.0,
+      1932300.0,
+      893400.0,
+      1905800.0,
+      1062800.0,
+      2247900.0,
+      1664500.0,
+      74100.0,
+      1140100.0,
+      51400.0
+    ],
+    "income_growth": [
+      0.0,
+      -63.571708404906126,
+      -41.82660489741893,
+      301.94823663253703,
+      0.0353794445427269,
+      14.93545534924845,
+      -26.660102160132926,
+      36.435344465889074,
+      -17.553355064887143,
+      -22.57739649384558,
+      42.13518331165389,
+      -30.31556112937668
+    ],
+    "expense_growth": [
+      0.0,
+      -32.039555006180464,
+      80.45652964714442,
+      -54.93624955903845,
+      116.2938939834489,
+      -30.510314875135723,
+      -1.741071428571428,
+      -23.981523549901564,
+      1.2551050901484118,
+      96.91096901131333,
+      -9.562350119904073,
+      10.733620594409455
+    ]
+  },
+  "payments": {
+    "most_used_method": "Bank",
+    "totals_by_method": [
+      {
+        "method": "Bank",
+        "amount": 21576300.0
+      },
+      {
+        "method": "Card",
+        "amount": 19369800.0
+      },
+      {
+        "method": "Cash",
+        "amount": 6617600.0
+      }
+    ],
+    "counts_by_method": [
+      {
+        "method": "Bank",
+        "count": 263.0
+      },
+      {
+        "method": "Card",
+        "count": 222.0
+      },
+      {
+        "method": "Cash",
+        "count": 166.0
+      }
+    ]
+  },
+  "category_month_matrix": {
+    "categories": [
+      "Education",
+      "Entertainment",
+      "Food",
+      "Gift",
+      "Health",
+      "Internet",
+      "Mobile",
+      "Other",
+      "Rent",
+      "Shopping",
+      "Subscriptions",
+      "Transport",
+      "Travel",
+      "Utilities"
+    ],
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "values": [
+      [
+        172600,
+        12100,
+        285000,
+        88600,
+        412300,
+        59600,
+        466400,
+        182900,
+        21300,
+        343500,
+        33600,
+        499400
+      ],
+      [
+        11400,
+        33600,
+        41700,
+        18800,
+        19700,
+        19300,
+        30100,
+        35700,
+        41600,
+        58900,
+        22000,
+        62600
+      ],
+      [
+        8500,
+        0,
+        10100,
+        9300,
+        21300,
+        16700,
+        30200,
+        22000,
+        2100,
+        24300,
+        13200,
+        33900
+      ],
+      [
+        47500,
+        69200,
+        0,
+        42400,
+        101900,
+        53200,
+        47900,
+        54400,
+        0,
+        130400,
+        17200,
+        65100
+      ],
+      [
+        145400,
+        59100,
+        50600,
+        91900,
+        20500,
+        90600,
+        110400,
+        17100,
+        90800,
+        6800,
+        218300,
+        105000
+      ],
+      [
+        21900,
+        31100,
+        25300,
+        18900,
+        0,
+        36600,
+        56500,
+        30200,
+        9800,
+        41200,
+        26000,
+        28700
+      ],
+      [
+        3000,
+        21000,
+        8300,
+        23400,
+        20400,
+        3200,
+        19100,
+        34800,
+        12800,
+        8100,
+        9300,
+        13300
+      ],
+      [
+        16100,
+        3500,
+        7100,
+        20400,
+        1300,
+        14600,
+        1500,
+        17600,
+        4200,
+        16000,
+        4900,
+        14900
+      ],
+      [
+        520600,
+        481700,
+        685300,
+        270400,
+        776400,
+        545800,
+        405300,
+        160100,
+        146500,
+        660400,
+        799900,
+        590900
+      ],
+      [
+        172600,
+        71900,
+        49500,
+        79900,
+        152700,
+        116200,
+        29900,
+        105500,
+        74100,
+        49300,
+        101000,
+        56100
+      ],
+      [
+        15100,
+        5700,
+        4000,
+        7900,
+        8400,
+        15100,
+        19500,
+        51900,
+        3000,
+        10200,
+        16100,
+        0
+      ],
+      [
+        1100,
+        10500,
+        4100,
+        1700,
+        16700,
+        17700,
+        8800,
+        9700,
+        6400,
+        4200,
+        9800,
+        9000
+      ],
+      [
+        361500,
+        231800,
+        813300,
+        186100,
+        241700,
+        252800,
+        95000,
+        213100,
+        595800,
+        610100,
+        538900,
+        525600
+      ],
+      [
+        120700,
+        68400,
+        0,
+        34500,
+        140800,
+        102600,
+        0,
+        68900,
+        8100,
+        38200,
+        0,
+        0
+      ]
+    ]
+  },
+  "transactions": [
+    {
+      "date": "2026-01-01",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 68700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 179000.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 203700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-04",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 195800.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-05",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 2300.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 386700.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-06",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 19500.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-07",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 31600.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-07",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 77000.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-07",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 59000.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-08",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 57800.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-08",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 9400.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-09",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 5800.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-10",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 7800.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-10",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 7800.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-11",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 16600.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-11",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Metro card top-up",
+      "amount": 1100.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-12",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 21200.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-12",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 500.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-13",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 14500.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 17600.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 4300.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Online marketplace",
+      "amount": 4700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 2400.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 28800.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 137900.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-16",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 12300.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-17",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 427100.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-17",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 23500.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-17",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8100.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-18",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 491800.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-19",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Online marketplace",
+      "amount": 39000.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-19",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 92900.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-19",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 184400.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-19",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 13600.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 37300.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 5000.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 3200.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 152300.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-22",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 18400.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-22",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 362200.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-22",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8000.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-22",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 46000.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-23",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 8500.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-23",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 13600.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-23",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 386700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-23",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 33800.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-24",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 95600.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-24",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 5700.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-26",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 34800.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-26",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 212300.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 19700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 11400.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-27",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 5000.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-28",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 21700.0,
+      "payment_method": "Bank",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-28",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 422700.0,
+      "payment_method": "Card",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-29",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 2800.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-29",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 3000.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 23200.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-01-31",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 149200.0,
+      "payment_method": "Cash",
+      "month": "January"
+    },
+    {
+      "date": "2026-02-01",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 6300.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 142000.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-02",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 12800.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-03",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8100.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-04",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5900.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-04",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7600.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 425800.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-06",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 11300.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-07",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 8800.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-07",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 23400.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 5500.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 19100.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 20000.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 19600.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-09",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 4300.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 9200.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-11",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 5700.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-11",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 18500.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-12",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 231800.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-13",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 1200.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-13",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 2900.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-13",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9400.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-14",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 40000.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-16",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 6200.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-16",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 389700.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-17",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 2300.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-19",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 1700.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-19",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Accessories",
+      "amount": 13900.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 7400.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 9900.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-21",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 12100.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-21",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 18200.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-21",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4800.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-22",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 12900.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-22",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 13400.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-22",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 14700.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-23",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 26900.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-23",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 89700.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-24",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 142200.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 24000.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-26",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 241300.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-27",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7400.0,
+      "payment_method": "Cash",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-27",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 197500.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 6000.0,
+      "payment_method": "Card",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 15200.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 11800.0,
+      "payment_method": "Bank",
+      "month": "February"
+    },
+    {
+      "date": "2026-03-01",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5500.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-01",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 2800.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 156800.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 130200.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-04",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 107300.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-05",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 116200.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-05",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 15400.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 454700.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-06",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 4000.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-07",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 58000.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-07",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 11600.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-09",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 176400.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-09",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 24800.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 114700.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 7900.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-13",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 35800.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-13",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 5600.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-14",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 182800.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 15800.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-16",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 235000.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-16",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 215500.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 5100.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 54700.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-19",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Coffee shop",
+      "amount": 8000.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-19",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 2800.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 19400.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 7100.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 24700.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 7800.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-21",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 75200.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-21",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 2900.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-23",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 37500.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-24",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 236600.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-26",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 5600.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-26",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 12100.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-27",
+      "type": "Expense",
+      "category": "Food",
+      "description": "McDonald's",
+      "amount": 2100.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-27",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 5400.0,
+      "payment_method": "Bank",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-27",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 39900.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-29",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 4100.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 13100.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8100.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 15400.0,
+      "payment_method": "Card",
+      "month": "March"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 23100.0,
+      "payment_method": "Cash",
+      "month": "March"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 43100.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 127900.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-03",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 238500.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 471100.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-05",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8000.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-05",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4900.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-06",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 36700.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 45700.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-08",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 38600.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-08",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 9300.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-08",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 186100.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-09",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 29600.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-10",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 11900.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-13",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 17200.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-14",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 182300.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-15",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 13300.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-17",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 25200.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-18",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 36000.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-18",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 6000.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-19",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Metro card top-up",
+      "amount": 1700.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-19",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 93700.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 5300.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 91600.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7600.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": 18800.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 62600.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 47300.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 9300.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5100.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 1900.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 142500.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5800.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-24",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 59000.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-24",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 4300.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 2200.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 493100.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 36800.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 48100.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 496800.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-26",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 419200.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-26",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 61600.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-27",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 18400.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 6800.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 7100.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-29",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Accessories",
+      "amount": 21000.0,
+      "payment_method": "Bank",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Accessories",
+      "amount": 10800.0,
+      "payment_method": "Card",
+      "month": "April"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 10900.0,
+      "payment_method": "Cash",
+      "month": "April"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 3300.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 3300.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 49000.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-02",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 19700.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-02",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 182200.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 205500.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-02",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 22900.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-03",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 10600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-03",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 24200.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-04",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 165000.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-04",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 218700.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-05",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 22200.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-05",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 71900.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 455700.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 198500.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 83400.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 8500.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 9900.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 418500.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 26200.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 11700.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-09",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 132400.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 15600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Coffee shop",
+      "amount": 11400.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 1000.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 140900.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7500.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Online marketplace",
+      "amount": 59800.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 1300.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 126200.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-16",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 90100.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-16",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 373600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-17",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 2600.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-18",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 400700.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": 5600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 6200.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 17600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 3000.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 43900.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 20500.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-20",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 46200.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 3700.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 28600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 13500.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 30500.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 6600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-23",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 18000.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-24",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 14000.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-24",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 12800.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-24",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 17700.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 102000.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Bus ticket",
+      "amount": 900.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-26",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 5100.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 141100.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 10300.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 900.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 123600.0,
+      "payment_method": "Bank",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-28",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 106400.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-30",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 215200.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-30",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 190700.0,
+      "payment_method": "Card",
+      "month": "May"
+    },
+    {
+      "date": "2026-05-31",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": 3000.0,
+      "payment_method": "Cash",
+      "month": "May"
+    },
+    {
+      "date": "2026-06-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 213700.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 35300.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 3200.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 63100.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 24800.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 3100.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 14600.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 374400.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-06",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 18400.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-07",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8500.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-07",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 17600.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 16900.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 28400.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 14000.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 7200.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 57700.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Software license",
+      "amount": 4500.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": 5900.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 133700.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 5100.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": 4000.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 22900.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-13",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 370800.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 5500.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Bus ticket",
+      "amount": 1400.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 391800.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 150400.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 2700.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Online marketplace",
+      "amount": 23200.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 8000.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 147100.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 198400.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 10300.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 33000.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 17100.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 42500.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 16200.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 25600.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 426600.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 20000.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 65200.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 142400.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 24600.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 77200.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 8000.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 356900.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-25",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 425700.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 19500.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-26",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 164100.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-27",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7600.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-27",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 145400.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-28",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 110400.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-28",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 22700.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-28",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 6600.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 10200.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 27800.0,
+      "payment_method": "Cash",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 5500.0,
+      "payment_method": "Bank",
+      "month": "June"
+    },
+    {
+      "date": "2026-06-29",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 6400.0,
+      "payment_method": "Card",
+      "month": "June"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 70100.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 6000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 5000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 219000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 6400.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 369900.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 1500.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 82700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 430100.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-05",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7600.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 7400.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 6800.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 149700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 126700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 9100.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 71000.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 34900.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 26600.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 35700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-10",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Accessories",
+      "amount": 29900.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 21300.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 10300.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-12",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 3200.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 11700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 55800.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 3700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 189700.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 99300.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7100.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 2400.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 95000.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 77400.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-19",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Fuel",
+      "amount": 1200.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 12100.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 28000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7100.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 181900.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 33300.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 191700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 415400.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 6900.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 7600.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9800.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-25",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 35100.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 38700.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 9000.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 13400.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 8300.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 220800.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 186300.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4800.0,
+      "payment_method": "Cash",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 6600.0,
+      "payment_method": "Card",
+      "month": "July"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 9000.0,
+      "payment_method": "Bank",
+      "month": "July"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 13700.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 17400.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 16200.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 5900.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Metro card top-up",
+      "amount": 1900.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 160100.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-02",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 190100.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "Expense",
+      "category": "Food",
+      "description": "McDonald's",
+      "amount": 4700.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 42000.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Bus ticket",
+      "amount": 4000.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 415000.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 5100.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 476400.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 7400.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 8000.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 128300.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 9000.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 13300.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4200.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 1000.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 6100.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 53700.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 14100.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Water bill",
+      "amount": 22900.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 54600.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Accessories",
+      "amount": 50700.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 30400.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7400.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 32100.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 8900.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4900.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-15",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 90100.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 11200.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-16",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 19400.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 17200.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 15300.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 14900.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 17400.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 8300.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 96400.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 9200.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 113900.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 19500.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 394100.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 99200.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 174700.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 412200.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 30400.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 1800.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 6200.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 28600.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Restaurant dinner",
+      "amount": 3600.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 26700.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 11000.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 5500.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 468000.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 9000.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4100.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-23",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 23700.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 6800.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 115800.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Bus ticket",
+      "amount": 3800.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7700.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 11500.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 2600.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 52400.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-29",
+      "type": "Expense",
+      "category": "Food",
+      "description": "McDonald's",
+      "amount": 13700.0,
+      "payment_method": "Cash",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 18800.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 8800.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Software license",
+      "amount": 8600.0,
+      "payment_method": "Bank",
+      "month": "August"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 64100.0,
+      "payment_method": "Card",
+      "month": "August"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 3000.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 3400.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 146500.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 12500.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 448300.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Performance bonus",
+      "amount": 118500.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 23700.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-06",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 210600.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 20500.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 146900.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 8100.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9800.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 17400.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 53600.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7800.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-12",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 84800.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-12",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 4300.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-13",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 42400.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-13",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 142000.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 88500.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 70500.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 21300.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 172400.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 204100.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 16700.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 6400.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 4200.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5000.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": 3200.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 2100.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 27400.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 448600.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 386200.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 48500.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 387600.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 244800.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 19600.0,
+      "payment_method": "Bank",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 19200.0,
+      "payment_method": "Cash",
+      "month": "September"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Online marketplace",
+      "amount": 17100.0,
+      "payment_method": "Card",
+      "month": "September"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Heating bill",
+      "amount": 21800.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 14700.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Wedding gift",
+      "amount": 8600.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 152300.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 169400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 37700.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 11500.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 4800.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": 4000.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 23000.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 484700.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 18900.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Restaurant dinner",
+      "amount": 4300.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 147500.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 72600.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 15700.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 26400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 5100.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 142300.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 111000.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 4700.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Metro card top-up",
+      "amount": 2600.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-10",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 17100.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 49300.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 10000.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 197100.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 11900.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 78000.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 67300.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 18700.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 5700.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 104200.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 220800.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 61400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 499100.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 19500.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Taxi ride",
+      "amount": 1600.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 29700.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 3400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Cloud storage",
+      "amount": 3900.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 211800.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 7700.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 5200.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 27400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 7900.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 31600.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Magazine",
+      "amount": 6300.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 3600.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 25900.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9400.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 6800.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 5300.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "Expense",
+      "category": "Utilities",
+      "description": "Gas bill",
+      "amount": 16400.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 478500.0,
+      "payment_method": "Card",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 5200.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 141600.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 152300.0,
+      "payment_method": "Bank",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 37100.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Concert",
+      "amount": 7600.0,
+      "payment_method": "Cash",
+      "month": "October"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 57800.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 6500.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 179600.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 18100.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 10500.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 22300.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 468800.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 468800.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 19200.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 407800.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 58000.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Software license",
+      "amount": 3200.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-08",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 6100.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 6700.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 39600.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 39900.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 19600.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 49400.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 49400.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9900.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 2600.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 6800.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 24500.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 5600.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 3000.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 41500.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-20",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Bus ticket",
+      "amount": 3000.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-21",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 124400.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-21",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 27000.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 187800.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 161200.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 204300.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Electronics",
+      "amount": 11700.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 33600.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 499800.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 4900.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-26",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 17200.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 29700.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 103200.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 38700.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Expense",
+      "category": "Subscriptions",
+      "description": "Streaming service",
+      "amount": 3400.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 49000.0,
+      "payment_method": "Bank",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-27",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Consulting fee",
+      "amount": 248400.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-29",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": 2800.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-29",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Doctor visit",
+      "amount": 25800.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-29",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 410800.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-29",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 156000.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "Expense",
+      "category": "Food",
+      "description": "McDonald's",
+      "amount": 13200.0,
+      "payment_method": "Cash",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 189900.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 152100.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "Income",
+      "category": "Gift",
+      "description": "Gift received",
+      "amount": 37400.0,
+      "payment_method": "Card",
+      "month": "November"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 10700.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 222500.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 6500.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 420400.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 196900.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 500.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-03",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Metro card top-up",
+      "amount": 600.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-03",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Service fee",
+      "amount": 1500.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-04",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Pharmacy",
+      "amount": 32000.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-05",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 452000.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-05",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Holiday gift",
+      "amount": 19700.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-05",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 38000.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-06",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 19600.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-06",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 9200.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-07",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 244200.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-09",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Vitamins",
+      "amount": 29500.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-10",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 39200.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-10",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Dental checkup",
+      "amount": 4700.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-10",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 54300.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-10",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Workshop fee",
+      "amount": 135900.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-11",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Flight ticket",
+      "amount": 21900.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-11",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 13300.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-12",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 141600.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-13",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Hotel booking",
+      "amount": 149600.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-13",
+      "type": "Expense",
+      "category": "Health",
+      "description": "Gym membership",
+      "amount": 38800.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-14",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Stock sale profit",
+      "amount": 39600.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-15",
+      "type": "Income",
+      "category": "Salary",
+      "description": "Monthly salary",
+      "amount": 428800.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-15",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Bowling",
+      "amount": 19600.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-16",
+      "type": "Income",
+      "category": "Bonus",
+      "description": "Year-end bonus",
+      "amount": 76300.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Clothing store",
+      "amount": 7900.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Online course",
+      "amount": 20300.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 198800.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 7500.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-19",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Video game",
+      "amount": 15100.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-19",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Grocery store",
+      "amount": 6700.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 17000.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 36900.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-22",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 6700.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-23",
+      "type": "Expense",
+      "category": "Transport",
+      "description": "Parking",
+      "amount": 7900.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-23",
+      "type": "Income",
+      "category": "Other",
+      "description": "Cashback",
+      "amount": 12400.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-24",
+      "type": "Expense",
+      "category": "Gift",
+      "description": "Birthday gift",
+      "amount": 28400.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-24",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Cinema tickets",
+      "amount": 12700.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-24",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 2800.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-24",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 17500.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-25",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Bank fee",
+      "amount": 6800.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-25",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Dividend payout",
+      "amount": 78100.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-26",
+      "type": "Expense",
+      "category": "Internet",
+      "description": "Home internet bill",
+      "amount": 8800.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-26",
+      "type": "Income",
+      "category": "Freelance",
+      "description": "Freelance project payment",
+      "amount": 107200.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-26",
+      "type": "Income",
+      "category": "Other",
+      "description": "Miscellaneous income",
+      "amount": 19900.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-26",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Textbooks",
+      "amount": 116000.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-27",
+      "type": "Expense",
+      "category": "Rent",
+      "description": "Monthly apartment rent",
+      "amount": 195200.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-27",
+      "type": "Expense",
+      "category": "Education",
+      "description": "Tuition fee",
+      "amount": 58800.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-28",
+      "type": "Expense",
+      "category": "Shopping",
+      "description": "Shoes",
+      "amount": 35000.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-29",
+      "type": "Expense",
+      "category": "Entertainment",
+      "description": "Streaming rental",
+      "amount": 15200.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-30",
+      "type": "Income",
+      "category": "Investment",
+      "description": "Interest income",
+      "amount": 17500.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-30",
+      "type": "Expense",
+      "category": "Other",
+      "description": "Miscellaneous purchase",
+      "amount": 3800.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-30",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Travel insurance",
+      "amount": 23100.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-30",
+      "type": "Expense",
+      "category": "Travel",
+      "description": "Train ticket",
+      "amount": 86800.0,
+      "payment_method": "Card",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-31",
+      "type": "Expense",
+      "category": "Mobile",
+      "description": "Mobile plan top-up",
+      "amount": 5800.0,
+      "payment_method": "Bank",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-31",
+      "type": "Expense",
+      "category": "Food",
+      "description": "Supermarket",
+      "amount": 13900.0,
+      "payment_method": "Cash",
+      "month": "December"
+    },
+    {
+      "date": "2026-12-31",
+      "type": "Income",
+      "category": "Other",
+      "description": "Refund",
+      "amount": 2500.0,
+      "payment_method": "Card",
+      "month": "December"
+    }
+  ]
+}

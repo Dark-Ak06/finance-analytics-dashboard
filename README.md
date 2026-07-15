@@ -218,14 +218,7 @@ monthly profit, payment methods, full pipeline), Excel report generation
 
 ---
 
-## Formatting
 
-The codebase follows PEP 8 and uses type hints and docstrings throughout.
-Format the code with:
-
-```bash
-black src tests
-```
 
 
 ## License
